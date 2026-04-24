@@ -622,14 +622,6 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4278190080
       objectReference: {fileID: 0}
-    - target: {fileID: 6546313049751499283, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
-      propertyPath: m_overrideHtmlColors
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6546313049751499283, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
-      propertyPath: m_enableVertexGradient
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6784881789902841718, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_Color.a
       value: 0.3137255
