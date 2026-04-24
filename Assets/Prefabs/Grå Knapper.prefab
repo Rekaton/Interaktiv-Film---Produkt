@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 1818796018932425842}
   - component: {fileID: 6784881789902841718}
   - component: {fileID: 3940519337008747750}
+  - component: {fileID: 3056270184759408358}
   m_Layer: 5
   m_Name: Venstre Knap
   m_TagString: Untagged
@@ -256,7 +257,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6784881789902841718}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3056270184759408358}
+        m_TargetAssemblyTypeName: ChoiceButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3056270184759408358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3269268612893248951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d717ecfab66fc547941dc3dafe36317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChoiceButton
+  choiceData: {fileID: 11400000, guid: 2604cded7f39dc34da25d4f1842380c5, type: 2}
 --- !u!1 &4587101682880574882
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,6 +468,7 @@ GameObject:
   - component: {fileID: 8593095553638963979}
   - component: {fileID: 8218561267912161362}
   - component: {fileID: 1979011162387933068}
+  - component: {fileID: 6382153651442711441}
   m_Layer: 5
   m_Name: "H\xF8jre Knap"
   m_TagString: Untagged
@@ -550,4 +577,29 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8218561267912161362}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6382153651442711441}
+        m_TargetAssemblyTypeName: ChoiceButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6382153651442711441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8615339216354204903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d717ecfab66fc547941dc3dafe36317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChoiceButton
+  choiceData: {fileID: 11400000, guid: 2604cded7f39dc34da25d4f1842380c5, type: 2}
