@@ -84,6 +84,7 @@ public class GameManager : MonoBehaviour
         Debug.Log(string.Join(", ", sceneHistory));
 
         SaveHistoryToFile();
+        
         //tømmer listen
         sceneHistory.Clear();
 
@@ -97,14 +98,14 @@ public class GameManager : MonoBehaviour
     }
     public void StartNewPlaythrough()
     {
-        //MovieEnded();
+       
 
         // Nulstil værdier
         valueA = start_valueA;
         valueB = start_valueB;
         valueC = start_valueC;
 
-        // Inkrementer playCount og tilføj til den nye liste
+        // playCount stiger og tilføj til den nye liste
         playCount++;
         sceneHistory.Add(playCount.ToString());
 
@@ -127,6 +128,10 @@ public class GameManager : MonoBehaviour
             LoadScene(creditsSceneName);
             MovieEnded();
 
+        }
+        else
+        {
+            return;
         }
     }
 
