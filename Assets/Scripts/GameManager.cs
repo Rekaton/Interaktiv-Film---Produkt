@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
         // tilføjer choicedatas scene navn til listen
         sceneHistory.Add(choice.nextScene);
 
-        if (valueA <= 1)
+        if (valueC <= 1)
         {
             LoadScene("Scene 16.1"); // penge
         }
@@ -67,9 +67,9 @@ public class GameManager : MonoBehaviour
         {
             LoadScene("Scene 17.1"); // venner under 1
         }
-        else if (sceneHistory.Contains("Scene 14;") && sceneHistory.Contains("Scene 16;")) // har taget et job
+        else if (valueA <= 1)
         {
-            LoadScene("Scene 18");
+            LoadScene("Scene 20.1");
         }
         else
         {
@@ -122,18 +122,22 @@ public class GameManager : MonoBehaviour
     {
         //Debug.Log("OnVideoFinished()");
 
-        if (hasChosen == false && choiceUIWasShown == false)
+        if (hasChosen == false && choiceUIWasShown == false) // film slut
         {
             //Debug.Log("!hasChosen && choiceUIWasShown == false");
             LoadScene(creditsSceneName);
             MovieEnded();
 
         }
+        else if (sceneHistory.Contains("Scene 14;") && sceneHistory.Contains("Scene 16;")) // har taget et job
+        {
+            LoadScene("Scene 18");
+        }
         else
         {
             return;
         }
-    }
+     }
 
     private void OnEnable()
     {
