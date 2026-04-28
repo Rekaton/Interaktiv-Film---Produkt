@@ -341,7 +341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VideoController
   videoPlayer: {fileID: 1861968499}
   choiceUI: {fileID: 1419595103}
-  showChoiceTime: 3
+  showChoiceTime: 38
 --- !u!1 &1417474695
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Gr\xE5 Knapper"
       objectReference: {fileID: 0}
+    - target: {fileID: 7336209983333478758, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -543,7 +547,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861968497}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 917bd1f9d38d1c44c9b3388eb9dad59c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -584,7 +588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

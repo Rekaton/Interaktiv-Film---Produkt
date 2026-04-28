@@ -15,4 +15,4 @@ MonoBehaviour:
   valueAChange: 0
   valueBChange: 0
   valueCChange: 0
-  nextScene: 
+  nextScene: Scene 2
