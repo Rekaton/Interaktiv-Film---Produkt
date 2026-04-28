@@ -7,7 +7,7 @@ public class UIManager : MonoBehaviour
     public Slider barB;
     public Slider barC;
 
-    public GameObject choiceUI;
+    //public GameObject choiceUI;
 
     void Start()
     {
@@ -22,8 +22,8 @@ public class UIManager : MonoBehaviour
         barC.value = GameManager.Instance.valueC;
     }
 
-    public void ShowChoices()
-    {
-        choiceUI.SetActive(true);
-    }
+    //public void ShowChoices()
+    //{
+    //    choiceUI.SetActive(true);
+    //}
 }
