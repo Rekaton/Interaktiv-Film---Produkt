@@ -685,9 +685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb78bcd4c1791b94bb1139901ff950e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  valueA: 0
-  valueB: 0
-  valueC: 0
+  valueA: 5
+  valueB: 5
+  valueC: 5
   creditsSceneName: Credits
 --- !u!1001 &1419595101
 PrefabInstance:

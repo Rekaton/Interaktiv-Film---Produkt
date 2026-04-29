@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Scene 7-12
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceData
   valueAChange: -2
-  valueBChange: 1
+  valueBChange: 2
   valueCChange: -1
   nextScene: Scene 7-9-12
