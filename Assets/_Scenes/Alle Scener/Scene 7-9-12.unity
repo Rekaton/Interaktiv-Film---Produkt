@@ -439,7 +439,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637022775}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 8566d733a93131c43950fac5befcba9d, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: bd4a71845ff8c494a8e79a5706d3ec43, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -822,6 +822,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3056270184759408358, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: choiceData
+      value: 
+      objectReference: {fileID: 11400000, guid: 7f355f73dcfce7d4191649f5dc60c05d, type: 2}
+    - target: {fileID: 6382153651442711441, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: choiceData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4f6953337c4f7164f91c9fbdefdfc234, type: 2}
     - target: {fileID: 7336209983333478758, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_Name
       value: "Gr\xE5 Knapper"
