@@ -110,18 +110,24 @@ public class GameManager : MonoBehaviour
         else if (valueC > 1 && !sceneHistory.Contains("Scene 17-18") && !sceneHistory.Contains("Scene 16"))
         {
             LoadScene("Scene 16");
+            ////tømmer listen
+            //sceneHistory.Clear();
         }
         else if (sceneHistory.Contains("Scene 17.1"))
         {
             //Load credit til 17.1
 
             LoadScene("Credits 17.1");
+            ////tømmer listen
+            //sceneHistory.Clear();
         }
         else if (sceneHistory.Contains("Scene 20.1"))
         {
             //Load credit til 20.1
 
             LoadScene("Credits 20.1");
+            ////tømmer listen
+            //sceneHistory.Clear();
         }
         else if (valueA < 3 && !sceneHistory.Contains("Karakter 4") && sceneHistory.Contains("Scene 19-21") || sceneHistory.Contains("Scene 20-21"))
         {
@@ -137,15 +143,17 @@ public class GameManager : MonoBehaviour
         {
             //load credits til 21
             LoadScene("Karakter 10");
+
         }
         else
         {
             LoadScene("Credits hue");
+            ////tømmer listen
+            //sceneHistory.Clear();
         }
 
 
-        //tømmer listen
-        sceneHistory.Clear();
+        
 
     }
     public void SaveHistoryToFile()
