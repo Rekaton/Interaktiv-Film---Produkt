@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceData
   valueAChange: -1
   valueBChange: 1
-  valueCChange: 0
+  valueCChange: -1
   nextScene: Scene 5
