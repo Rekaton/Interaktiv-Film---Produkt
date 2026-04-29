@@ -527,10 +527,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3056270184759408358, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: choiceData
+      value: 
+      objectReference: {fileID: 11400000, guid: 9df75519a2a9f8b4f9425cb9caf28032, type: 2}
     - target: {fileID: 6382153651442711441, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: choiceData
       value: 
-      objectReference: {fileID: 11400000, guid: d2ab8c108e022844e981bdbafc373e29, type: 2}
+      objectReference: {fileID: 11400000, guid: 772d4c7128da59c4baae7b62ca784016, type: 2}
     - target: {fileID: 6546313049751499283, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_text
       value: Gilli og Lamin
