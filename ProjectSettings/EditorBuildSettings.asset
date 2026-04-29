@@ -86,6 +86,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Alle Scener/Credits 16.1.unity
     guid: 3866908d8a0602c419e14565806726a1
+  - enabled: 1
+    path: Assets/_Scenes/Alle Scener/Scene 19.1-21.unity
+    guid: 9d6a59950b3a2b74a8e4ffe57aad7055
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
