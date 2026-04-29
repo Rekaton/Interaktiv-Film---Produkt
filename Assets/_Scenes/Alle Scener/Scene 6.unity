@@ -439,7 +439,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637022775}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 69dedadf4b634d34cbf199b6a9d34bc4, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: d6460f4499f02d0479df58075c233da0, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcf6b040a01801c4491c2cb29be5060f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VideoController
-  videoPlayer: {fileID: 0}
+  videoPlayer: {fileID: 637022777}
   choiceUI: {fileID: 1419595103}
   showChoiceTime: 3
 --- !u!1 &1417474695
@@ -697,6 +697,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2028704296}
     m_Modifications:
+    - target: {fileID: 1273389232241112949, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: m_text
+      value: "L\xE6s op"
+      objectReference: {fileID: 0}
     - target: {fileID: 1832803661507410838, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -763,7 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1832803661507410838, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 1832803661507410838, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -776,6 +780,18 @@ PrefabInstance:
     - target: {fileID: 1832803661507410838, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3056270184759408358, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: choiceData
+      value: 
+      objectReference: {fileID: 11400000, guid: f90b574136875554da824d81f01fde6d, type: 2}
+    - target: {fileID: 6382153651442711441, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: choiceData
+      value: 
+      objectReference: {fileID: 11400000, guid: 031b0f654bfed394c9de87012e1b2915, type: 2}
+    - target: {fileID: 6546313049751499283, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: m_text
+      value: Tag i byen
       objectReference: {fileID: 0}
     - target: {fileID: 7336209983333478758, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_Name

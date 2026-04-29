@@ -435,9 +435,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb78bcd4c1791b94bb1139901ff950e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  valueA: 2
-  valueB: 2
-  valueC: 2
+  valueA: 3
+  valueB: 3
+  valueC: 3
   creditsSceneName: Credits
 --- !u!1 &584024596
 GameObject:
