@@ -42,6 +42,9 @@ EditorBuildSettings:
     path: Assets/_Scenes/Alle Scener/Scene 14-15.unity
     guid: 91a788318e1430642bb79d6e8401ddcf
   - enabled: 1
+    path: Assets/_Scenes/Alle Scener/Scene 18.unity
+    guid: 6a3d0ea53fa737840a6676c3dd73ff97
+  - enabled: 1
     path: Assets/_Scenes/Alle Scener/Scene 16.unity
     guid: f323c2cb11542004faf0e7cc905ca4a9
   - enabled: 1
