@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
         valueA += choice.valueAChange;
         valueB += choice.valueBChange;
         valueC += choice.valueCChange;
-
+        Debug.Log("ApplyChoice");
 
         
 
@@ -90,31 +90,31 @@ public class GameManager : MonoBehaviour
         {
             //Load credit til 16.1
             
-            LoadScene("Credit 16.1");
+            LoadScene("Credits 16.1");
         }
         else if (sceneHistory.Contains("Scene 17.1"))
         {
             //Load credit til 17.1
             
-            LoadScene("Credit 17.1");
+            LoadScene("Credits 17.1");
         }
         else if (sceneHistory.Contains("Scene 20.1"))
         {
             //Load credit til 20.1
             
-            LoadScene("Credit 20.1");
+            LoadScene("Credits 20.1");
         }
-        else if (valueA < 3 & !sceneHistory.Contains("Karakter 4"))
+        else if (valueA < 3 && !sceneHistory.Contains("Karakter 4"))
         {
             //load credits til 21
             LoadScene("Karakter 4");
         }
-        else if (valueA < 5 & !sceneHistory.Contains("Karakter 7"))
+        else if (valueA < 5 && !sceneHistory.Contains("Karakter 7"))
         {
             //load credits til 21
             LoadScene("Karakter 7");
         }
-        else if (valueA < 10 & !sceneHistory.Contains("Karakter 10"))
+        else if (valueA < 10 && !sceneHistory.Contains("Karakter 10"))
         {
             //load credits til 21
             LoadScene("Karakter 10");
@@ -167,11 +167,11 @@ public class GameManager : MonoBehaviour
 
     public void OnVideoFinished(bool choiceUIWasShown)
     {
-        //Debug.Log("OnVideoFinished()");
+        Debug.Log("OnVideoFinished()");
 
         if (hasChosen == false && choiceUIWasShown == false) // film slut
         {
-            //Debug.Log("!hasChosen && choiceUIWasShown == false");
+            Debug.Log("!hasChosen && choiceUIWasShown == false");
             //LoadScene(creditsSceneName);
             MovieEnded();
 
