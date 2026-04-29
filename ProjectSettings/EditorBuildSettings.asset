@@ -53,7 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Alle Scener/Scene 17.1.unity
     guid: 16fcb3c28843ac84f95601c9d8c2b898
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/Alle Scener/Scene 18.unity
     guid: 81c927a6b75308b44a24825bed17cc34
   - enabled: 1
@@ -66,8 +66,17 @@ EditorBuildSettings:
     path: Assets/_Scenes/Alle Scener/Scene 20.1.unity
     guid: d5ac076aff3a80a40a606312c1a9d724
   - enabled: 1
-    path: Assets/_Scenes/Alle Scener/Credits.unity
+    path: Assets/_Scenes/Alle Scener/Credits hue.unity
     guid: 88b45b83b280adc4da75020cdc68f433
+  - enabled: 1
+    path: Assets/_Scenes/Alle Scener/Credits 17.1.unity
+    guid: 8b658eca06c001d4092f8090181c10e8
+  - enabled: 1
+    path: Assets/_Scenes/Alle Scener/Credits 20.1.unity
+    guid: 9241c3da11c707d4aae715fe68f83543
+  - enabled: 1
+    path: Assets/_Scenes/Alle Scener/Credits 16.1.unity
+    guid: 3866908d8a0602c419e14565806726a1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
