@@ -393,7 +393,6 @@ MonoBehaviour:
   barA: {fileID: 495314498}
   barB: {fileID: 495314497}
   barC: {fileID: 495314496}
-  choiceUI: {fileID: 0}
 --- !u!1 &637022775
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,7 +640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VideoController
   videoPlayer: {fileID: 0}
   choiceUI: {fileID: 1419595103}
-  showChoiceTime: 3
+  showChoiceTime: 108
 --- !u!1 &1417474695
 GameObject:
   m_ObjectHideFlags: 0
