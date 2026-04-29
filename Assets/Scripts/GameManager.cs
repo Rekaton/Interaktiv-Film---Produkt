@@ -1,4 +1,5 @@
 
+using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -56,24 +57,29 @@ public class GameManager : MonoBehaviour
         valueC += choice.valueCChange;
 
 
-        // tilføjer choicedatas scene navn til listen
-        sceneHistory.Add(choice.nextScene);
+        
 
         if (valueC <= 1)
         {
+           
             LoadScene("Scene 16.1"); // penge
         }
         else if (valueB <= 1)
         {
+            
             LoadScene("Scene 17.1"); // venner under 1
         }
         else if (valueA <= 1)
         {
-            LoadScene("Scene 20.1");
+            
+            LoadScene("Scene 20.1"); //studievejleder
         }
         else
         {
+            // tilføjer choicedatas scene navn til listen
+          
             LoadScene(choice.nextScene);
+            
         }
 
 
@@ -84,7 +90,44 @@ public class GameManager : MonoBehaviour
         Debug.Log(string.Join(", ", sceneHistory));
 
         SaveHistoryToFile();
-        
+        if (sceneHistory.Contains("Scene 16.1"))
+        {
+            //Load credit til 16.1
+            
+            LoadScene("Credit 16.1");
+        }
+        else if (sceneHistory.Contains("Scene 17.1;"))
+        {
+            //Load credit til 17.1
+            
+            LoadScene("Credit 17.1");
+        }
+        else if (sceneHistory.Contains("Scene 20.1;"))
+        {
+            //Load credit til 20.1
+            
+            LoadScene("Credit 20.1");
+        }
+        else if (valueA < 3 && !sceneHistory.Contains("Karakter 4"))
+        {
+            //load credits til 21
+            LoadScene("Karakter 4");
+        }
+        else if (valueA < 5 && !sceneHistory.Contains("Karakter 7"))
+        {
+            //load credits til 21
+            LoadScene("Karakter 7");
+        }
+        else if (valueA < 10 && !sceneHistory.Contains("Karakter 10"))
+        {
+            //load credits til 21
+            LoadScene("Karakter 10");
+        }
+        else
+        {
+            LoadScene("Credits hue");
+        }
+
         //tømmer listen
         sceneHistory.Clear();
 
@@ -109,12 +152,13 @@ public class GameManager : MonoBehaviour
         playCount++;
         sceneHistory.Add(playCount.ToString());
 
-        sceneHistory.Add("Scene 1");
+       
 
         LoadScene("Scene 1");
     }
     public void LoadScene(string sceneName)
     {
+        sceneHistory.Add(sceneName);
         SceneManager.LoadScene(sceneName);
     }
 
@@ -125,12 +169,13 @@ public class GameManager : MonoBehaviour
         if (hasChosen == false && choiceUIWasShown == false) // film slut
         {
             //Debug.Log("!hasChosen && choiceUIWasShown == false");
-            LoadScene(creditsSceneName);
+            //LoadScene(creditsSceneName);
             MovieEnded();
 
         }
         else if (sceneHistory.Contains("Scene 14;") && sceneHistory.Contains("Scene 16;")) // har taget et job
         {
+            
             LoadScene("Scene 18");
         }
         else
