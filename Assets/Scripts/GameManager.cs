@@ -92,13 +92,13 @@ public class GameManager : MonoBehaviour
             
             LoadScene("Credit 16.1");
         }
-        else if (sceneHistory.Contains("Scene 17.1;"))
+        else if (sceneHistory.Contains("Scene 17.1"))
         {
             //Load credit til 17.1
             
             LoadScene("Credit 17.1");
         }
-        else if (sceneHistory.Contains("Scene 20.1;"))
+        else if (sceneHistory.Contains("Scene 20.1"))
         {
             //Load credit til 20.1
             
@@ -176,7 +176,7 @@ public class GameManager : MonoBehaviour
             MovieEnded();
 
         }
-        else if (sceneHistory.Contains("Scene 14;") && sceneHistory.Contains("Scene 16;")) // har taget et job
+        else if (sceneHistory.Contains("Scene 14") && sceneHistory.Contains("Scene 16")) // har taget et job
         {
             
             LoadScene("Scene 18");
