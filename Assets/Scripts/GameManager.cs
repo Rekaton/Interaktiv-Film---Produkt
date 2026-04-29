@@ -65,6 +65,11 @@ public class GameManager : MonoBehaviour
             
             LoadScene("Scene 17.1"); // venner under 1
         }
+        else if (valueC <= 1)
+        {
+
+            LoadScene("Scene 16.1"); // penge
+        }
         else if (valueA <= 1)
         {
             
