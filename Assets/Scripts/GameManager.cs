@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         //tilføjer int'en for antallet af genafspildning til listen af strings af scene navne.  
-        sceneHistory.Add(playCount.ToString());
+        //sceneHistory.Add(playCount.ToString());
         //gemme value a, b og c i start værdier variabler a,b og c
         start_valueA = valueA;
         start_valueB = valueB;
@@ -96,6 +96,7 @@ public class GameManager : MonoBehaviour
             //Load credit til 16.1
 
             LoadScene("Credits 16.1");
+            SaveHistoryToFile();
         }
         else if (valueC <= 1)
         {
@@ -182,7 +183,7 @@ public class GameManager : MonoBehaviour
         valueC = start_valueC;
 
         // playCount stiger og tilføj til den nye liste
-        playCount++;
+        //playCount++;
         sceneHistory.Add(playCount.ToString());
 
        
