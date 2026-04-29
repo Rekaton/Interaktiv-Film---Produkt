@@ -85,7 +85,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log(string.Join(", ", sceneHistory));
 
-        SaveHistoryToFile();
+        
         if (sceneHistory.Contains("Scene 16.1"))
         {
             //Load credit til 16.1
@@ -118,6 +118,7 @@ public class GameManager : MonoBehaviour
             //Load credit til 17.1
 
             LoadScene("Credits 17.1");
+            SaveHistoryToFile();
             ////tømmer listen
             //sceneHistory.Clear();
         }
@@ -126,6 +127,7 @@ public class GameManager : MonoBehaviour
             //Load credit til 20.1
 
             LoadScene("Credits 20.1");
+            SaveHistoryToFile();
             ////tømmer listen
             //sceneHistory.Clear();
         }
@@ -134,7 +136,7 @@ public class GameManager : MonoBehaviour
             //load credits til 21
             LoadScene("Karakter 4");
         }
-        else if (valueA < 5 && !sceneHistory.Contains("Karakter 7") && sceneHistory.Contains("Scene 19-21") || sceneHistory.Contains("Scene 20-21"))
+        else if (valueA <= 5 && !sceneHistory.Contains("Karakter 7") && sceneHistory.Contains("Scene 19-21") || sceneHistory.Contains("Scene 20-21"))
         {
             //load credits til 21
             LoadScene("Karakter 7");
@@ -148,6 +150,7 @@ public class GameManager : MonoBehaviour
         else
         {
             LoadScene("Credits hue");
+            SaveHistoryToFile();
             ////tømmer listen
             //sceneHistory.Clear();
         }
@@ -162,6 +165,7 @@ public class GameManager : MonoBehaviour
         string content = string.Join(";", sceneHistory);
         File.AppendAllText(path, content + "\n");
         Debug.Log("Gemt til: " + path);
+        sceneHistory.Clear();
     }
     public void StartNewPlaythrough()
     {
