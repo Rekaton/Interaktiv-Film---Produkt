@@ -136,7 +136,7 @@ public class GameManager : MonoBehaviour
             ////tømmer listen
             //sceneHistory.Clear();
         }
-        else if (valueA < 3 && !sceneHistory.Contains("Karakter 4") && (sceneHistory.Contains("Scene 19-21") || sceneHistory.Contains("Scene 20-21")))
+        else if (valueA <= 3 && !sceneHistory.Contains("Karakter 4") && (sceneHistory.Contains("Scene 19-21") || sceneHistory.Contains("Scene 20-21")))
         {
             //load credits til 21
             LoadScene("Karakter 4");
