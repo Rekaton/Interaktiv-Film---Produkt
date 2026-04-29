@@ -102,10 +102,10 @@ public class GameManager : MonoBehaviour
 
             LoadScene("Scene 18");
         }
-        else if (sceneHistory.Contains("Scene 13-15.1") && sceneHistory.Contains("Scene 16") && !sceneHistory.Contains("Scene 19-21")) // har taget et job
+        else if (sceneHistory.Contains("Scene 13-15.1") && sceneHistory.Contains("Scene 16") && !sceneHistory.Contains("Scene 19.1-21")) // har taget et job
         {
 
-            LoadScene("Scene 19-21");
+            LoadScene("Scene 19.1-21 ");
         }
         else if (valueC > 1 && !sceneHistory.Contains("Scene 17-18") && !sceneHistory.Contains("Scene 16"))
         {
