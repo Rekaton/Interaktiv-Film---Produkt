@@ -97,7 +97,17 @@ public class GameManager : MonoBehaviour
 
             LoadScene("Scene 16.1"); // penge
         }
-        else if (valueC > 1 && !sceneHistory.Contains("Scene 17-18"))
+        else if (sceneHistory.Contains("Scene 14-15") && sceneHistory.Contains("Scene 16") && !sceneHistory.Contains("Scene 18")) // har taget et job
+        {
+
+            LoadScene("Scene 18");
+        }
+        else if (sceneHistory.Contains("Scene 13-15.1") && sceneHistory.Contains("Scene 16") && !sceneHistory.Contains("Scene 19-21")) // har taget et job
+        {
+
+            LoadScene("Scene 19-21");
+        }
+        else if (valueC > 1 && !sceneHistory.Contains("Scene 17-18") && !sceneHistory.Contains("Scene 16"))
         {
             LoadScene("Scene 16");
         }
@@ -113,17 +123,17 @@ public class GameManager : MonoBehaviour
 
             LoadScene("Credits 20.1");
         }
-        else if (valueA < 3 && !sceneHistory.Contains("Karakter 4"))
+        else if (valueA < 3 && !sceneHistory.Contains("Karakter 4") && !sceneHistory.Contains("Scene 19-21") || !sceneHistory.Contains("Scene 19-21"))
         {
             //load credits til 21
             LoadScene("Karakter 4");
         }
-        else if (valueA < 5 && !sceneHistory.Contains("Karakter 7"))
+        else if (valueA < 5 && !sceneHistory.Contains("Karakter 7") && !sceneHistory.Contains("Scene 19-21") || !sceneHistory.Contains("Scene 19-21"))
         {
             //load credits til 21
             LoadScene("Karakter 7");
         }
-        else if (valueA < 10 && !sceneHistory.Contains("Karakter 10"))
+        else if (valueA < 10 && !sceneHistory.Contains("Karakter 10") && !sceneHistory.Contains("Scene 19-21") || !sceneHistory.Contains("Scene 19-21"))
         {
             //load credits til 21
             LoadScene("Karakter 10");
@@ -180,11 +190,7 @@ public class GameManager : MonoBehaviour
             MovieEnded();
 
         }
-        else if (sceneHistory.Contains("Scene 14") && sceneHistory.Contains("Scene 16")) // har taget et job
-        {
-            
-            LoadScene("Scene 18");
-        }
+        
         
     }
 
