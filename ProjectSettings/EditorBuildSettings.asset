@@ -42,20 +42,26 @@ EditorBuildSettings:
     path: Assets/_Scenes/Alle Scener/Scene 14-15.unity
     guid: 91a788318e1430642bb79d6e8401ddcf
   - enabled: 1
-    path: Assets/_Scenes/Alle Scener/Scene 14-15 1.unity
-    guid: b1b2b85436baa86478b08a7b585c438e
-  - enabled: 1
     path: Assets/_Scenes/Alle Scener/Scene 16.unity
     guid: f323c2cb11542004faf0e7cc905ca4a9
+  - enabled: 1
+    path: Assets/_Scenes/Alle Scener/Scene 16.1.unity
+    guid: f37c9c8bacce3204c857e005c6723143
   - enabled: 1
     path: Assets/_Scenes/Alle Scener/Scene 17-18.unity
     guid: 9d594277e6087624a84d207f9a6345a1
   - enabled: 1
+    path: Assets/_Scenes/Alle Scener/Karakter 4.unity
+    guid: 68497099898bc1b408d434ad66d84bd8
+  - enabled: 1
+    path: Assets/_Scenes/Alle Scener/Karakter 7.unity
+    guid: fa1bde9b8e3544440a5b4f0f434eb875
+  - enabled: 1
+    path: Assets/_Scenes/Alle Scener/Karakter 10.unity
+    guid: 087a7a73d8a660a4dbe7140951916e10
+  - enabled: 1
     path: Assets/_Scenes/Alle Scener/Scene 17.1.unity
     guid: 16fcb3c28843ac84f95601c9d8c2b898
-  - enabled: 0
-    path: Assets/_Scenes/Alle Scener/Scene 18.unity
-    guid: 81c927a6b75308b44a24825bed17cc34
   - enabled: 1
     path: Assets/_Scenes/Alle Scener/Scene 19-21.unity
     guid: 17e5b424f2c71104f86cf1e9a795878a
