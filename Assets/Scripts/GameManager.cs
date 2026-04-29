@@ -112,7 +112,7 @@ public class GameManager : MonoBehaviour
 
             LoadScene("Scene 19.1-21 ");
         }
-        else if (valueC > 1 && !sceneHistory.Contains("Scene 17-18") && !sceneHistory.Contains("Scene 16"))
+        else if (valueC > 1 && !sceneHistory.Contains("Scene 17-18") && !sceneHistory.Contains("Scene 16") && !(sceneHistory.Contains("Scene 17.1"))) 
         {
             LoadScene("Scene 16");
             ////tømmer listen
