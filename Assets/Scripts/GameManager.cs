@@ -89,19 +89,28 @@ public class GameManager : MonoBehaviour
         if (sceneHistory.Contains("Scene 16.1"))
         {
             //Load credit til 16.1
-            
+
             LoadScene("Credits 16.1");
+        }
+        else if (valueC <= 1)
+        {
+
+            LoadScene("Scene 16.1"); // penge
+        }
+        else if (valueC > 1 && !sceneHistory.Contains("Scene 17-18"))
+        {
+            LoadScene("Scene 16");
         }
         else if (sceneHistory.Contains("Scene 17.1"))
         {
             //Load credit til 17.1
-            
+
             LoadScene("Credits 17.1");
         }
         else if (sceneHistory.Contains("Scene 20.1"))
         {
             //Load credit til 20.1
-            
+
             LoadScene("Credits 20.1");
         }
         else if (valueA < 3 && !sceneHistory.Contains("Karakter 4"))
@@ -118,11 +127,6 @@ public class GameManager : MonoBehaviour
         {
             //load credits til 21
             LoadScene("Karakter 10");
-        }
-        else if (valueC <= 1)
-        {
-
-            LoadScene("Scene 16.1"); // penge
         }
         else
         {
