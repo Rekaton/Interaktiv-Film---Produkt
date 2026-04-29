@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Scene 13-15.1 intet job
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceData
   valueAChange: 0
-  valueBChange: 1
-  valueCChange: -1
+  valueBChange: 0
+  valueCChange: 0
   nextScene: Scene 13-15.1

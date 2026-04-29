@@ -161,6 +161,7 @@ public class GameManager : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         sceneHistory.Add(sceneName);
+        Debug.Log(sceneName);
         SceneManager.LoadScene(sceneName);
     }
 
