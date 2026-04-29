@@ -640,7 +640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VideoController
   videoPlayer: {fileID: 637022777}
   choiceUI: {fileID: 1419595103}
-  showChoiceTime: 68
+  showChoiceTime: 65
 --- !u!1 &1417474695
 GameObject:
   m_ObjectHideFlags: 0
