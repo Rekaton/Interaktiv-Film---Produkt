@@ -119,10 +119,16 @@ public class GameManager : MonoBehaviour
             //load credits til 21
             LoadScene("Karakter 10");
         }
+        else if (valueC <= 1)
+        {
+
+            LoadScene("Scene 16.1"); // penge
+        }
         else
         {
             LoadScene("Credits hue");
         }
+
 
         //tømmer listen
         sceneHistory.Clear();
@@ -174,11 +180,7 @@ public class GameManager : MonoBehaviour
             
             LoadScene("Scene 18");
         }
-        else if (valueC <= 1)
-        {
-
-            LoadScene("Scene 16.1"); // penge
-        }
+        
     }
 
     private void OnEnable()
