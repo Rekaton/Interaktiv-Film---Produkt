@@ -104,17 +104,17 @@ public class GameManager : MonoBehaviour
             
             LoadScene("Credit 20.1");
         }
-        else if (valueA < 3 && !sceneHistory.Contains("Karakter 4"))
+        else if (valueA < 3 & !sceneHistory.Contains("Karakter 4"))
         {
             //load credits til 21
             LoadScene("Karakter 4");
         }
-        else if (valueA < 5 && !sceneHistory.Contains("Karakter 7"))
+        else if (valueA < 5 & !sceneHistory.Contains("Karakter 7"))
         {
             //load credits til 21
             LoadScene("Karakter 7");
         }
-        else if (valueA < 10 && !sceneHistory.Contains("Karakter 10"))
+        else if (valueA < 10 & !sceneHistory.Contains("Karakter 10"))
         {
             //load credits til 21
             LoadScene("Karakter 10");
