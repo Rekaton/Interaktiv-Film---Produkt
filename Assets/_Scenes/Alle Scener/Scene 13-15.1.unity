@@ -638,8 +638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcf6b040a01801c4491c2cb29be5060f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VideoController
-  videoPlayer: {fileID: 0}
-  choiceUI: {fileID: 637022775}
+  videoPlayer: {fileID: 637022777}
+  choiceUI: {fileID: 0}
   showChoiceTime: 3
 --- !u!1 &1417474695
 GameObject:
