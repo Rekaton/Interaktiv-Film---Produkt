@@ -687,7 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   valueA: 5
   valueB: 5
-  valueC: 5
+  valueC: 4
   creditsSceneName: Credits
 --- !u!1001 &1419595101
 PrefabInstance:
