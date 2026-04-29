@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VideoController
   videoPlayer: {fileID: 1861968499}
-  choiceUI: {fileID: 0}
+  choiceUI: {fileID: 1861968497}
   showChoiceTime: 3
 --- !u!1 &1417474695
 GameObject:
@@ -1045,7 +1045,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861968497}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: b8558cfabface3b47b2d36130964cb24, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
