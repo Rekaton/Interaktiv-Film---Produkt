@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Scene 14-15 tager job
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceData
   valueAChange: 0
-  valueBChange: -1
+  valueBChange: 0
   valueCChange: 0
   nextScene: Scene 14-15
