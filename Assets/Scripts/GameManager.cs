@@ -20,9 +20,9 @@ public class GameManager : MonoBehaviour
 
     public string creditsSceneName = "Credits";
 
-    // int til antal af genafspildning første gang = 1
+    // int til antal af genafspildning fï¿½rste gang = 1
     public int playCount { get; private set; } = 1;
-    // tilføj liste af string til scene navn. scene navn fås af Choice button som sender choicedata
+    // tilfï¿½j liste af string til scene navn. scene navn fï¿½s af Choice button som sender choicedata
     public List<string> sceneHistory { get; private set; } = new List<string>();
 
     private void Awake()
@@ -40,9 +40,9 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        //tilføjer int'en for antallet af genafspildning til listen af strings af scene navne.  
+        //tilfï¿½jer int'en for antallet af genafspildning til listen af strings af scene navne.  
         //sceneHistory.Add(playCount.ToString());
-        //gemme value a, b og c i start værdier variabler a,b og c
+        //gemme value a, b og c i start vï¿½rdier variabler a,b og c
         start_valueA = valueA;
         start_valueB = valueB;
         start_valueC = valueC;
@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour
             
             LoadScene("Scene 17.1"); // venner under 1
         }
-        else if (valueC <= 1)
+        else if (valueC <= 1 && sceneHistory.Contains("Scene 14-15"))
         {
 
             LoadScene("Scene 16.1"); // penge
@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            // tilføjer choicedatas scene navn til listen
+            // tilfï¿½jer choicedatas scene navn til listen
           
             LoadScene(choice.nextScene);
             
@@ -116,7 +116,7 @@ public class GameManager : MonoBehaviour
         else if (valueC > 1 && !sceneHistory.Contains("Scene 17-18") && !sceneHistory.Contains("Scene 16") && !(sceneHistory.Contains("Scene 17.1"))) 
         {
             LoadScene("Scene 16");
-            ////tømmer listen
+            ////tï¿½mmer listen
             //sceneHistory.Clear();
         }
         else if (sceneHistory.Contains("Scene 17.1"))
@@ -125,7 +125,7 @@ public class GameManager : MonoBehaviour
 
             LoadScene("Credits 17.1");
             SaveHistoryToFile();
-            ////tømmer listen
+            ////tï¿½mmer listen
             //sceneHistory.Clear();
         }
         else if (sceneHistory.Contains("Scene 20.1"))
@@ -134,7 +134,7 @@ public class GameManager : MonoBehaviour
 
             LoadScene("Credits 20.1");
             SaveHistoryToFile();
-            ////tømmer listen
+            ////tï¿½mmer listen
             //sceneHistory.Clear();
         }
         else if (valueA <= 3 && !sceneHistory.Contains("Karakter 4") && (sceneHistory.Contains("Scene 19-21") || sceneHistory.Contains("Scene 20-21")))
@@ -147,7 +147,7 @@ public class GameManager : MonoBehaviour
             //load credits til 21
             LoadScene("Karakter 7");
         }
-        else if (valueA < 10 && !sceneHistory.Contains("Karakter 10") && !sceneHistory.Contains("Karakter 7") && (sceneHistory.Contains("Scene 19-21") || sceneHistory.Contains("Scene 20-21")))
+        else if (valueA < 10 && !sceneHistory.Contains("Karakter 10") && !sceneHistory.Contains("Karakter 7") && !sceneHistory.Contains("Karakter 4") && (sceneHistory.Contains("Scene 19-21") || sceneHistory.Contains("Scene 20-21")))
         {
             //load credits til 21
             LoadScene("Karakter 10");
@@ -157,7 +157,7 @@ public class GameManager : MonoBehaviour
         {
             LoadScene("Credits hue");
             SaveHistoryToFile();
-            ////tømmer listen
+            ////tï¿½mmer listen
             //sceneHistory.Clear();
         }
 
@@ -177,12 +177,12 @@ public class GameManager : MonoBehaviour
     {
        
 
-        // Nulstil værdier
+        // Nulstil vï¿½rdier
         valueA = start_valueA;
         valueB = start_valueB;
         valueC = start_valueC;
 
-        // playCount stiger og tilføj til den nye liste
+        // playCount stiger og tilfï¿½j til den nye liste
         //playCount++;
         sceneHistory.Add(playCount.ToString());
 
