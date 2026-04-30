@@ -630,7 +630,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1273389232241112949, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_text
-      value: Skriv SOP
+      value: "Frav\xE6lg venner"
       objectReference: {fileID: 0}
     - target: {fileID: 1832803661507410838, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_Pivot.x
@@ -722,7 +722,15 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: b1e51de0ebfeca747bf2b5d0bb1efe5d, type: 2}
     - target: {fileID: 6546313049751499283, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_text
-      value: Tag i byen
+      value: Tag i byen med venner
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546313049751499283, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: m_fontSize
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546313049751499283, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7336209983333478758, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_Name

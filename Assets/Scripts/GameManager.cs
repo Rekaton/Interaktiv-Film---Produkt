@@ -183,7 +183,7 @@ public class GameManager : MonoBehaviour
         valueC = start_valueC;
 
         // playCount stiger og tilf�j til den nye liste
-        //playCount++;
+        playCount++;
         sceneHistory.Add(playCount.ToString());
 
        

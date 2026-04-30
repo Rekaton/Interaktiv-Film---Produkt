@@ -630,7 +630,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1273389232241112949, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_text
-      value: "L\xE6s op"
+      value: "Fokuser p\xE5 SOP og \nf\xE5 bedre karakter"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273389232241112949, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: m_fontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273389232241112949, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1832803661507410838, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_Pivot.x
@@ -734,7 +742,19 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 031b0f654bfed394c9de87012e1b2915, type: 2}
     - target: {fileID: 6546313049751499283, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_text
-      value: Tag i byen
+      value: "Tag i byen og f\xE5 \nt\xF8mmerm\xE6nd"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546313049751499283, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: m_fontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546313049751499283, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546313049751499283, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7336209983333478758, guid: 39e074b7f1cced443bc13bd1405a117e, type: 3}
       propertyPath: m_Name
