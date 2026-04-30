@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Valg 1
+  m_text: "F\xE5 et job"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d717ecfab66fc547941dc3dafe36317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceButton
-  choiceData: {fileID: 11400000, guid: 2604cded7f39dc34da25d4f1842380c5, type: 2}
+  choiceData: {fileID: 11400000, guid: 7f355f73dcfce7d4191649f5dc60c05d, type: 2}
 --- !u!1 &4587101682880574882
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Valg 2
+  m_text: Ignorer besked
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -375,8 +375,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -444,7 +444,7 @@ RectTransform:
   m_GameObject: {fileID: 7336209983333478758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 590723036287320675}
@@ -602,4 +602,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d717ecfab66fc547941dc3dafe36317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChoiceButton
-  choiceData: {fileID: 11400000, guid: 2604cded7f39dc34da25d4f1842380c5, type: 2}
+  choiceData: {fileID: 11400000, guid: 4f6953337c4f7164f91c9fbdefdfc234, type: 2}
